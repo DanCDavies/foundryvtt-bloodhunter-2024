@@ -14,7 +14,7 @@ Includes all four Orders (Ghostslayer, Lycan, Mutant, Profane Soul), 12 blood cu
 In Foundry VTT, go to **Add-on Modules → Install Module** and paste:
 
 ```
-https://github.com/__GH_USER__/foundryvtt-bloodhunter-2024/releases/latest/download/module.json
+https://github.com/DanCDavies/foundryvtt-bloodhunter-2024/releases/latest/download/module.json
 ```
 
 ## Usage

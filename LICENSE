@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 __GH_USER__
+Copyright (c) 2024 DanCDavies
 
 This license applies ONLY to the build tooling, packaging scripts, and workflow
 automation in this repository (build.mjs, .github/workflows/, package.json).
