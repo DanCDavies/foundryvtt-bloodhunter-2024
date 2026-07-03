@@ -1,0 +1,53 @@
+{
+  "_id": "bhmfVermilion000",
+  "name": "Vermilion",
+  "type": "feat",
+  "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Effect:</strong> You gain one additional use of your Blood Maledict feature.</p>\n<p><strong>Side Effect:</strong> You have Disadvantage on Death Saving Throws.</p>\n<section class=\"secret\"><p><strong>Foundry Note</strong></p><p>The additional Blood Maledict use and Disadvantage on death saving throws cannot be fully automated via standard Active Effects. Track both manually.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "mutagenFormula"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Blood Hunter (Order of the Mutant)",
+    "activities": {},
+    "enchant": {},
+    "identifier": "vermilion"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhmfVermilion000"
+}

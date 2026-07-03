@@ -1,0 +1,452 @@
+{
+  "_id": "bhCrimsonRite000",
+  "name": "Crimson Rite",
+  "ownership": {
+    "default": 0
+  },
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You learn to invoke a rite of hemocraft that infuses your weapon strikes with elemental energy. As a Bonus Action, you can activate a rite you know on one weapon you're holding. The rite lasts until you finish a Short or Long Rest. When you activate a rite, you take Necrotic damage equal to one roll of your Hemocraft die (@scale.blood-hunter.hemocraft-die). This damage can't be reduced in any way.</p>\n<p>While the rite is active, attacks you make with that weapon are Magical, and they deal extra damage of the rite's type equal to one roll of your Hemocraft die (@scale.blood-hunter.hemocraft-die). A weapon can hold only one active rite at a time, and no other creature can gain the benefit of your rite.</p>\n<p>You know one Primal Rite of your choice from the list below. You learn another Primal Rite at 7th level, and you gain access to the Esoteric Rites at 14th level.</p>\n<p><strong>Primal Rites</strong></p>\n<p><em><strong>Rite of the Flame.</strong></em> The extra damage is Fire damage.</p>\n<p><em><strong>Rite of the Frozen.</strong></em> The extra damage is Cold damage.</p>\n<p><em><strong>Rite of the Storm.</strong></em> The extra damage is Lightning damage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "book": "",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Blood Hunter",
+    "properties": [],
+    "activities": {
+      "bhCrimRitActFlam": {
+        "type": "enchant",
+        "name": "Rite of the Flame",
+        "_id": "bhCrimRitActFlam",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "bheCrimRiteFlame",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": "weapon"
+        },
+        "img": "",
+        "appliedEffects": [
+          "bheCrimRiteFlame"
+        ]
+      },
+      "bhCrimRitActFros": {
+        "type": "enchant",
+        "name": "Rite of the Frozen",
+        "_id": "bhCrimRitActFros",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "bheCrimRiteFrost",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": "weapon"
+        },
+        "img": "",
+        "appliedEffects": [
+          "bheCrimRiteFrost"
+        ]
+      },
+      "bhCrimRitActStrm": {
+        "type": "enchant",
+        "name": "Rite of the Storm",
+        "_id": "bhCrimRitActStrm",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "bheCrimRiteStorm",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": "weapon"
+        },
+        "img": "",
+        "appliedEffects": [
+          "bheCrimRiteStorm"
+        ]
+      }
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": 2
+    },
+    "identifier": "crimson-rite"
+  },
+  "flags": {},
+  "img": "icons/magic/fire/dagger-rune-enchant-red-yellow.webp",
+  "effects": [
+    {
+      "_id": "bheCrimRiteFlame",
+      "name": "Rite of the Flame",
+      "img": "icons/magic/fire/dagger-rune-enchant-red-yellow.webp",
+      "type": "enchantment",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.properties",
+            "value": "mgc",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.damage.parts",
+            "value": [
+              [
+                "@scale.blood-hunter.hemocraft-die",
+                "fire"
+              ]
+            ],
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhCrimsonRite000.bheCrimRiteFlame"
+    },
+    {
+      "_id": "bheCrimRiteFrost",
+      "name": "Rite of the Frozen",
+      "img": "icons/magic/fire/dagger-rune-enchant-red-yellow.webp",
+      "type": "enchantment",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.properties",
+            "value": "mgc",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.damage.parts",
+            "value": [
+              [
+                "@scale.blood-hunter.hemocraft-die",
+                "cold"
+              ]
+            ],
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhCrimsonRite000.bheCrimRiteFrost"
+    },
+    {
+      "_id": "bheCrimRiteStorm",
+      "name": "Rite of the Storm",
+      "img": "icons/magic/fire/dagger-rune-enchant-red-yellow.webp",
+      "type": "enchantment",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.properties",
+            "value": "mgc",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.damage.parts",
+            "value": [
+              [
+                "@scale.blood-hunter.hemocraft-die",
+                "lightning"
+              ]
+            ],
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhCrimsonRite000.bheCrimRiteStorm"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhCrimsonRite000"
+}

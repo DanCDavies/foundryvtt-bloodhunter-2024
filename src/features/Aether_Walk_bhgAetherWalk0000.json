@@ -1,0 +1,118 @@
+{
+  "_id": "bhgAetherWalk0000",
+  "name": "Aether Walk",
+  "type": "feat",
+  "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>At the start of your turn, if you don't have the Incapacitated condition, you can magically step into the veil between the planes. Until this effect ends, you can move through other creatures and objects as if they were Difficult Terrain, and you can see and affect creatures and objects on the Ethereal Plane. You take 1d10 Force damage if you end your turn inside an object.</p>\n<p>This effect lasts for a number of rounds equal to your Intelligence modifier (minimum of 1 round). If you are inside an object when it ends, you are shunted to the nearest unoccupied space, and you take Force damage equal to twice the number of feet you moved to reach that space.</p>\n<p>Once you use this feature, you can't use it again until you finish a Short or Long Rest. Starting at 15th level, you can use it twice between rests.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 7
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {
+      "b7crv50000000000": {
+        "type": "utility",
+        "name": "Aether Walk",
+        "_id": "b7crv50000000000",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "At the start of your turn, if you don't have the Incapacitated condition"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "round",
+          "concentration": false,
+          "override": false,
+          "value": "@abilities.int.mod"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 100000,
+        "img": "",
+        "roll": {
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "enchant": {},
+    "identifier": "aether-walk"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhgAetherWalk0000"
+}

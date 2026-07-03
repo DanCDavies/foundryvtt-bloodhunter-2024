@@ -1,0 +1,122 @@
+{
+  "_id": "bhcAnxious000000",
+  "name": "Blood Curse of the Anxious",
+  "type": "feat",
+  "folder": null,
+  "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>As a Bonus Action, you harry the body and mind of a creature within 30 feet of yourself, making it susceptible to forceful influence. Until the end of your next turn, Charisma (Intimidation) checks made against the cursed creature have Advantage.</p><p><strong>Amplify.</strong> The next Wisdom saving throw the cursed creature makes before the curse ends has Disadvantage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "bloodCurse"
+    },
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {
+      "bhcAnxiousAct000": {
+        "_id": "bhcAnxiousAct000",
+        "type": "utility",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "turn",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "special": "",
+          "override": false,
+          "value": 30
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "enchant": {},
+    "identifier": "blood-curse-of-the-anxious"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1751500000000,
+    "modifiedTime": 1751500000000,
+    "lastModifiedBy": "bloodhunterBuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!bhcAnxious000000"
+}

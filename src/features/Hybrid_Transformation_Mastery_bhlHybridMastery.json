@@ -1,0 +1,53 @@
+{
+  "_id": "bhlHybridMastery",
+  "name": "Hybrid Transformation Mastery",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have mastered your inner predator. You can use your Hybrid Transformation feature any number of times, and your hybrid form lasts until you revert to your normal form, have the Unconscious condition, or die.</p>\n<p>You also gain the Blood Curse of the Howl. It doesn't count against your number of Blood Curses known.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 18
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {},
+    "enchant": {},
+    "identifier": "hybrid-transformation-mastery"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhlHybridMastery"
+}

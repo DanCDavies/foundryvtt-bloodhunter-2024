@@ -1,0 +1,452 @@
+{
+  "_id": "bhEsotericRite00",
+  "name": "Esoteric Rite",
+  "ownership": {
+    "default": 0
+  },
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You learn one of the following Esoteric Rites of your choice. It counts as a rite for your Crimson Rite feature.</p>\n<p><em><strong>Rite of the Dead.</strong></em> The extra damage is Necrotic damage.</p>\n<p><em><strong>Rite of the Oracle.</strong></em> The extra damage is Psychic damage.</p>\n<p><em><strong>Rite of the Roar.</strong></em> The extra damage is Thunder damage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "book": "",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Blood Hunter",
+    "properties": [],
+    "activities": {
+      "bhCrimRitActDead": {
+        "type": "enchant",
+        "name": "Rite of the Dead",
+        "_id": "bhCrimRitActDead",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "bheCrimRiteDead0",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": "weapon"
+        },
+        "img": "",
+        "appliedEffects": [
+          "bheCrimRiteDead0"
+        ]
+      },
+      "bhCrimRitActOrcl": {
+        "type": "enchant",
+        "name": "Rite of the Oracle",
+        "_id": "bhCrimRitActOrcl",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "bheCrimRiteOracl",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": "weapon"
+        },
+        "img": "",
+        "appliedEffects": [
+          "bheCrimRiteOracl"
+        ]
+      },
+      "bhCrimRitActRoar": {
+        "type": "enchant",
+        "name": "Rite of the Roar",
+        "_id": "bhCrimRitActRoar",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "bheCrimRiteRoar0",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": "weapon"
+        },
+        "img": "",
+        "appliedEffects": [
+          "bheCrimRiteRoar0"
+        ]
+      }
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": 14
+    },
+    "identifier": "esoteric-rite"
+  },
+  "flags": {},
+  "img": "icons/magic/fire/dagger-rune-enchant-red-yellow.webp",
+  "effects": [
+    {
+      "_id": "bheCrimRiteDead0",
+      "name": "Rite of the Dead",
+      "img": "icons/magic/fire/dagger-rune-enchant-red-yellow.webp",
+      "type": "enchantment",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.properties",
+            "value": "mgc",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.damage.parts",
+            "value": [
+              [
+                "@scale.blood-hunter.hemocraft-die",
+                "necrotic"
+              ]
+            ],
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhEsotericRite00.bheCrimRiteDead0"
+    },
+    {
+      "_id": "bheCrimRiteOracl",
+      "name": "Rite of the Oracle",
+      "img": "icons/magic/fire/dagger-rune-enchant-red-yellow.webp",
+      "type": "enchantment",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.properties",
+            "value": "mgc",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.damage.parts",
+            "value": [
+              [
+                "@scale.blood-hunter.hemocraft-die",
+                "psychic"
+              ]
+            ],
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhEsotericRite00.bheCrimRiteOracl"
+    },
+    {
+      "_id": "bheCrimRiteRoar0",
+      "name": "Rite of the Roar",
+      "img": "icons/magic/fire/dagger-rune-enchant-red-yellow.webp",
+      "type": "enchantment",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.properties",
+            "value": "mgc",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.damage.parts",
+            "value": [
+              [
+                "@scale.blood-hunter.hemocraft-die",
+                "thunder"
+              ]
+            ],
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhEsotericRite00.bheCrimRiteRoar0"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhEsotericRite00"
+}

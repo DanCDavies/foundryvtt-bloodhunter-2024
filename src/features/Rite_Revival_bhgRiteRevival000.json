@@ -1,0 +1,58 @@
+{
+  "_id": "bhgRiteRevival000",
+  "name": "Rite Revival",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You learn to protect your fading life by reabsorbing the energy you feed to your weapons. If you have at least one active Crimson Rite and you are reduced to 0 Hit Points but not killed outright, you can choose to end all your active Crimson Rites and drop to 1 Hit Point instead.</p>\n<p>Once you use this feature, you can't use it again until you finish a Long Rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 18
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {},
+    "enchant": {},
+    "identifier": "rite-revival"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhgRiteRevival000"
+}

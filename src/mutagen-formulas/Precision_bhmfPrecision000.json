@@ -1,0 +1,99 @@
+{
+  "_id": "bhmfPrecision000",
+  "name": "Precision",
+  "type": "feat",
+  "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prerequisite: Blood Hunter Level 11</em></p>\n<p><strong>Effect:</strong> Your weapon attacks score a Critical Hit on a roll of 19 or 20.</p>\n<p><strong>Side Effect:</strong> You have Disadvantage on Strength saving throws.</p>\n<section class=\"secret\"><p><strong>Foundry Note</strong></p><p>Critical hit on 19-20 cannot be automated via standard Active Effects. Set the weapon's critical threshold manually or use a module like DAE.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "mutagenFormula"
+    },
+    "prerequisites": {
+      "level": 11
+    },
+    "properties": [],
+    "requirements": "Blood Hunter (Order of the Mutant)",
+    "activities": {},
+    "enchant": {},
+    "identifier": "precision"
+  },
+  "effects": [
+    {
+      "_id": "bhefPrecision000",
+      "name": "Precision",
+      "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+      "type": "base",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.abilities.str.save.roll.mode",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhmfPrecision000.bhefPrecision000"
+    }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhmfPrecision000"
+}

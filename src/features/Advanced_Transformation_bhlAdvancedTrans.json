@@ -1,0 +1,53 @@
+{
+  "_id": "bhlAdvancedTrans",
+  "name": "Advanced Transformation",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You learn to unleash and control more of the beast within. You can use your Hybrid Transformation feature twice, and you regain all expended uses when you finish a Short or Long Rest. Your hybrid form also gains the following benefit.</p>\n<p><strong>Lycan Regeneration.</strong> At the start of each of your turns when you have at least 1 Hit Point but fewer than half your Hit Points remaining, you regain Hit Points equal to 1 plus your Constitution modifier (minimum of 1 Hit Point). While in hybrid form, you regain these Hit Points before you make the saving throw for your Bloodlust.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 11
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {},
+    "enchant": {},
+    "identifier": "advanced-transformation"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhlAdvancedTrans"
+}

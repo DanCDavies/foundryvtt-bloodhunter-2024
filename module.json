@@ -1,0 +1,45 @@
+{
+  "id": "blood-hunter-2024",
+  "title": "Blood Hunter (2024)",
+  "description": "The Blood Hunter class for the 2024 Player's Handbook rules, based on the original class by Matthew Mercer. Includes all four subclasses (Ghostslayer, Lycan, Mutant, Profane Soul), blood curses, and mutagen formulas.",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "Homebrew"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13.347",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0",
+          "verified": "5.3.3"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/profane-soul-spellcasting.mjs"
+  ],
+  "url": "https://github.com/__GH_USER__/foundryvtt-bloodhunter-2024",
+  "manifest": "https://github.com/__GH_USER__/foundryvtt-bloodhunter-2024/releases/latest/download/module.json",
+  "download": "https://github.com/__GH_USER__/foundryvtt-bloodhunter-2024/releases/latest/download/module.zip",
+  "readme": "https://github.com/__GH_USER__/foundryvtt-bloodhunter-2024/blob/main/README.md",
+  "license": "LICENSE",
+  "bugs": "https://github.com/__GH_USER__/foundryvtt-bloodhunter-2024/issues",
+  "packs": [
+    {
+      "name": "blood-hunter-2024",
+      "label": "Blood Hunter (2024)",
+      "path": "packs/blood-hunter-2024",
+      "type": "Item",
+      "system": "dnd5e"
+    }
+  ]
+}

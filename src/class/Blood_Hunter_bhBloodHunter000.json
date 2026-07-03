@@ -1,0 +1,933 @@
+{
+  "_id": "bhBloodHunter000",
+  "name": "Blood Hunter",
+  "type": "class",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Marred but resolute, blood hunters are clever warriors driven by an unending determination to destroy evils old and new. Armed with rites of secretive blood magic and a willingness to sacrifice their own vitality and humanity for their cause, they protect the realms from the shadows—even as they remain ever vigilant against being drawn to the darkness that consumes the monsters they hunt.</p><p>Far from the judging eyes of society, blood hunters have mastered the secretive techniques of hemocraft, finding blood magic's esoteric nature effective against evils that resist divine rebuke or arcane binding. Through careful study and practice, blood hunters hone the rites of hemocraft into unique combat techniques, forfeiting a portion of their own health to call blood curses down upon their enemies or to summon the elements to aid their strikes.</p><blockquote><p><strong>Variant: Hemocraft Ability Score.</strong> As a blood hunter, you use your Intelligence modifier for many of your class and subclass features. However, with your DM's permission, you can instead use your Wisdom modifier for all your blood hunter features that use your Intelligence modifier by default. If you do, replace every reference to Intelligence in this class with Wisdom.</p></blockquote>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "identifier": "blood-hunter",
+    "levels": 1,
+    "startingEquipment": [],
+    "wealth": "100",
+    "primaryAbility": {
+      "value": [
+        "str",
+        "dex",
+        "int"
+      ],
+      "all": false
+    },
+    "hd": {
+      "denomination": "d10",
+      "spent": 0,
+      "additional": ""
+    },
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    },
+    "advancement": [
+      {
+        "_id": "bhadv000HitPoints",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "bhadv001SaveProfs",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:dex",
+            "saves:int"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Saving Throw Proficiencies",
+        "hint": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "bhadv002WeaponPr",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim",
+            "weapon:mar"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Weapon Proficiencies",
+        "hint": ""
+      },
+      {
+        "_id": "bhadv003ArmorTrn",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:shl"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Armor Training",
+        "hint": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "bhadv004ToolProf",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:alchemist"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Tool Proficiencies",
+        "hint": ""
+      },
+      {
+        "_id": "bhadv005SkillPrf",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "skills:acr",
+                "skills:arc",
+                "skills:ath",
+                "skills:his",
+                "skills:ins",
+                "skills:inv",
+                "skills:rel",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Skill Proficiencies",
+        "hint": "",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "bhadv006McSkills",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim",
+            "weapon:mar",
+            "armor:lgt",
+            "armor:med",
+            "armor:shl",
+            "tool:alchemist"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Multiclass Proficiencies",
+        "hint": "",
+        "classRestriction": "secondary"
+      },
+      {
+        "_id": "bhadv010HemoDie0",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "hemocraft-die",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "number": null,
+              "faces": 4,
+              "modifiers": []
+            },
+            "5": {
+              "number": null,
+              "faces": 6,
+              "modifiers": []
+            },
+            "10": {
+              "number": null,
+              "faces": 8,
+              "modifiers": []
+            },
+            "15": {
+              "number": null,
+              "faces": 10,
+              "modifiers": []
+            },
+            "19": {
+              "number": null,
+              "faces": 12,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "Hemocraft Die",
+        "hint": ""
+      },
+      {
+        "_id": "bhadv011MalUses0",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "blood-maledict",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 1
+            },
+            "6": {
+              "value": 2
+            },
+            "13": {
+              "value": 3
+            },
+            "17": {
+              "value": 4
+            }
+          }
+        },
+        "value": {},
+        "title": "Blood Maledict Uses",
+        "hint": ""
+      },
+      {
+        "_id": "bhadv012CurseKno",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "blood-curses-known",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 1
+            },
+            "6": {
+              "value": 2
+            },
+            "10": {
+              "value": 3
+            },
+            "14": {
+              "value": 4
+            },
+            "18": {
+              "value": 5
+            }
+          }
+        },
+        "value": {},
+        "title": "Blood Curses Known",
+        "hint": ""
+      },
+      {
+        "_id": "bhadv013WpnMstCt",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "weapon-mastery",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 2
+            },
+            "5": {
+              "value": 3
+            },
+            "12": {
+              "value": 4
+            }
+          }
+        },
+        "value": {},
+        "title": "Weapon Masteries Known",
+        "hint": ""
+      },
+      {
+        "_id": "bhadv014WpnMstTr",
+        "type": "Trait",
+        "configuration": {
+          "mode": "mastery",
+          "allowReplacements": true,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "weapon:sim:*",
+                "weapon:mar:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "Weapon Mastery",
+        "hint": ""
+      },
+      {
+        "_id": "bhadv015MstryL05",
+        "type": "Trait",
+        "configuration": {
+          "mode": "mastery",
+          "allowReplacements": true,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "weapon:sim:*",
+                "weapon:mar:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 5,
+        "title": "Weapon Mastery",
+        "hint": ""
+      },
+      {
+        "_id": "bhadv016MstryL12",
+        "type": "Trait",
+        "configuration": {
+          "mode": "mastery",
+          "allowReplacements": true,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "weapon:sim:*",
+                "weapon:mar:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 12,
+        "title": "Weapon Mastery",
+        "hint": ""
+      },
+      {
+        "_id": "bhadv020FeatL01a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhHuntersBane000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhBloodMaledict0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhWeaponMastery0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "Level 1 Features"
+      },
+      {
+        "_id": "bhadv021FeatL02a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhCrimsonRite000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "Level 2 Features"
+      },
+      {
+        "_id": "bhadv022FightStl",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "2": {
+              "count": 1,
+              "replacement": true
+            },
+            "3": {
+              "count": null,
+              "replacement": true
+            },
+            "4": {
+              "count": null,
+              "replacement": true
+            },
+            "5": {
+              "count": null,
+              "replacement": true
+            },
+            "6": {
+              "count": null,
+              "replacement": true
+            },
+            "7": {
+              "count": null,
+              "replacement": true
+            },
+            "8": {
+              "count": null,
+              "replacement": true
+            },
+            "9": {
+              "count": null,
+              "replacement": true
+            },
+            "10": {
+              "count": null,
+              "replacement": true
+            },
+            "11": {
+              "count": null,
+              "replacement": true
+            },
+            "12": {
+              "count": null,
+              "replacement": true
+            },
+            "13": {
+              "count": null,
+              "replacement": true
+            },
+            "14": {
+              "count": null,
+              "replacement": true
+            },
+            "15": {
+              "count": null,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": null,
+              "replacement": true
+            },
+            "18": {
+              "count": null,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [],
+          "spell": null,
+          "restriction": {
+            "type": "feat",
+            "subtype": "fightingStyle",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Fighting Style",
+        "hint": "You gain a Fighting Style feat of your choice. Archery, Dueling, Great Weapon Fighting, and Two-Weapon Fighting are all fitting choices. Whenever you gain a Blood Hunter level, you can replace the Fighting Style feat you chose with a different one."
+      },
+      {
+        "_id": "bhadv025Subclass",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "level": 3,
+        "title": "",
+        "hint": "You commit to an order of blood hunters whose philosophy guides your hemocraft. Choose the Order of the Ghostslayer, the Order of the Lycan, the Order of the Mutant, or the Order of the Profane Soul."
+      },
+      {
+        "_id": "bhadv026ASI04000",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {},
+        "level": 4,
+        "title": "",
+        "hint": "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+      },
+      {
+        "_id": "bhadv027FeatL05a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhExtraAttack000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhTemperedRite00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "Level 5 Features"
+      },
+      {
+        "_id": "bhadv028FeatL06a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhBrandCastigat0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Level 6 Features"
+      },
+      {
+        "_id": "bhadv029FeatL07a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhPrimalRite0000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Level 7 Features"
+      },
+      {
+        "_id": "bhadv030ASI08000",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {},
+        "level": 8,
+        "title": "",
+        "hint": "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+      },
+      {
+        "_id": "bhadv031FeatL09a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhGrimPsychomtr0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Level 9 Features"
+      },
+      {
+        "_id": "bhadv032FeatL10a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhDarkAugment000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "Level 10 Features"
+      },
+      {
+        "_id": "bhadv033ASI12000",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {},
+        "level": 12,
+        "title": "",
+        "hint": "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+      },
+      {
+        "_id": "bhadv034FeatL13a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhBrandTetherin0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "Level 13 Features"
+      },
+      {
+        "_id": "bhadv035FeatL14a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhHardenedSoul00",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhEsotericRite00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Level 14 Features"
+      },
+      {
+        "_id": "bhadv036ASI16000",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {},
+        "level": 16,
+        "title": "",
+        "hint": "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+      },
+      {
+        "_id": "bhadv037EpicBoon",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": [],
+          "recommendation": null
+        },
+        "value": {},
+        "level": 19,
+        "title": "",
+        "hint": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Combat Prowess and Boon of Dimensional Travel are fitting choices."
+      },
+      {
+        "_id": "bhadv038FeatL20a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhSanguineMstr00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "Level 20 Features"
+      },
+      {
+        "_id": "bhadv040CurseChc",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": true
+            },
+            "2": {
+              "count": null,
+              "replacement": true
+            },
+            "3": {
+              "count": null,
+              "replacement": true
+            },
+            "4": {
+              "count": null,
+              "replacement": true
+            },
+            "5": {
+              "count": null,
+              "replacement": true
+            },
+            "6": {
+              "count": 1,
+              "replacement": true
+            },
+            "7": {
+              "count": null,
+              "replacement": true
+            },
+            "8": {
+              "count": null,
+              "replacement": true
+            },
+            "9": {
+              "count": null,
+              "replacement": true
+            },
+            "10": {
+              "count": 1,
+              "replacement": true
+            },
+            "11": {
+              "count": null,
+              "replacement": true
+            },
+            "12": {
+              "count": null,
+              "replacement": true
+            },
+            "13": {
+              "count": null,
+              "replacement": true
+            },
+            "14": {
+              "count": 1,
+              "replacement": true
+            },
+            "15": {
+              "count": null,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": null,
+              "replacement": true
+            },
+            "18": {
+              "count": 1,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcAnxious000000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcBinding000000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcBloatedAgony00"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcExposure000000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcEyeless0000000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcFallenPuppet00"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcMarked00000000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcMuddledMind000"
+            }
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "feat",
+            "subtype": "bloodCurse",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Blood Curses",
+        "hint": "You learn Blood Curses as you gain levels, and can replace one known curse each time you learn a new one."
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhBloodHunter000"
+}

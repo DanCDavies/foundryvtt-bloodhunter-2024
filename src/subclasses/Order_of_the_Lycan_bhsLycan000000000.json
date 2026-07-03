@@ -1,0 +1,139 @@
+{
+  "_id": "bhsLycan000000000",
+  "name": "Order of the Lycan",
+  "type": "subclass",
+  "img": "icons/creatures/mammals/wolf-howl-moon-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>The ancient curse of lycanthropy is feared by nearly all peoples and cultures, passed through blood and seeding its host with the savage strength and hunger for violence of a wicked beast. The Order of the Lycan is a proud group of blood hunters who undergo \"the Taming\"—the ceremonial infliction of lycanthropy by a senior member of the order, for those who don't already carry the curse. These hunters then use the magic of their blood to harness the power of the monster they harbor without losing themselves to it.</p><p>Through intense will and secret blood rituals, members of the Order of the Lycan learn to control and unleash their hybrid forms for short periods. Enhanced physical prowess, unnatural resilience, and razor-sharp claws make them a terror to any evil that crosses their path.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "identifier": "lycan",
+    "classIdentifier": "blood-hunter",
+    "advancement": [
+      {
+        "_id": "bhsly01FeatL03a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhlHeightenSens0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhlHybridTransf0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Lycan Features"
+      },
+      {
+        "_id": "bhsly02FeatL07a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhlStalkerProws0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Lycan Features"
+      },
+      {
+        "_id": "bhsly03FeatL11a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhlAdvancedTrans",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "Lycan Features"
+      },
+      {
+        "_id": "bhsly04FeatL15a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhlBrandVoracous",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Lycan Features"
+      },
+      {
+        "_id": "bhsly05FeatL18a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhlHybridMastery",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcHowl0000000000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "Lycan Features"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhsLycan000000000"
+}

@@ -1,0 +1,53 @@
+{
+  "_id": "bhmFormulas00000",
+  "name": "Formulas",
+  "type": "feat",
+  "img": "icons/consumables/potions/potion-flask-corked-bubbling-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You learn four mutagen formulas of your choice from the list at the end of this subclass. You learn more formulas as you gain Blood Hunter levels, as shown in the Formulas Known column of the Mutagencraft table. Whenever you learn a new formula, you can also replace one formula you know with a different one.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {},
+    "enchant": {},
+    "identifier": "formulas"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhmFormulas00000"
+}

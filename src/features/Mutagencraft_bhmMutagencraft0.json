@@ -1,0 +1,113 @@
+{
+  "_id": "bhmMutagencraft0",
+  "name": "Mutagencraft",
+  "type": "feat",
+  "img": "icons/consumables/potions/potion-flask-corked-bubbling-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You learn to brew forbidden alchemical formulas—known as mutagens—that temporarily alter your body and mind.</p>\n<p>As a Bonus Action, you can consume a mutagen you've prepared. Each mutagen has an <strong>Effect</strong> and a <strong>Side Effect</strong>, both described in its formula. Unless a formula says otherwise, a mutagen's Effect and Side Effect last until you finish a Short or Long Rest. While one or more mutagens are affecting you, you can take a Magic action to flush them all from your system, ending their Effects and Side Effects.</p>\n<p>Your mutagens are tailored to your own biology and have no effect on other creatures. They are also unstable: a mutagen you've brewed but not yet consumed becomes inert when you finish your next Short or Long Rest.</p>\n<p>When you finish a Short or Long Rest, you can brew a number of mutagens shown in the Mutagens Brewed column of the Mutagencraft table, choosing from the formulas you know.</p>\n<table>\n<caption>Mutagencraft</caption>\n<thead><tr><th>Blood Hunter Level</th><th>Mutagens Brewed</th><th>Formulas Known</th></tr></thead>\n<tbody>\n<tr><td>3rd</td><td>1</td><td>4</td></tr>\n<tr><td>7th</td><td>2</td><td>5</td></tr>\n<tr><td>11th</td><td>2</td><td>6</td></tr>\n<tr><td>15th</td><td>3</td><td>7</td></tr>\n<tr><td>18th</td><td>3</td><td>8</td></tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {
+      "swu4to0000000000": {
+        "type": "utility",
+        "name": "Consume Mutagen",
+        "_id": "swu4to0000000000",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false,
+          "value": ""
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 100000,
+        "img": "",
+        "roll": {
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "enchant": {},
+    "identifier": "mutagencraft"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhmMutagencraft0"
+}

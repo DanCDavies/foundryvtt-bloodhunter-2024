@@ -1,0 +1,122 @@
+{
+  "_id": "bhcSoulEater00000",
+  "name": "Blood Curse of the Soul Eater",
+  "type": "feat",
+  "folder": null,
+  "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prerequisite: Level 18, Order of the Profane Soul</em></p><p>When a creature that isn't a Construct or an Undead is reduced to 0 Hit Points within 30 feet of yourself, you can take a Reaction to offer its life energy to your patron in exchange for power. Until the end of your next turn, you make attack rolls with Advantage and have Resistance to all damage.</p><p><strong>Amplify.</strong> You also regain one expended Pact Magic spell slot. Once you amplify this curse, you can't do so again until you finish a Long Rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "bloodCurse"
+    },
+    "prerequisites": {
+      "level": 18,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Blood Hunter (Order of the Profane Soul)",
+    "activities": {
+      "bhcSoulEatAct000": {
+        "_id": "bhcSoulEatAct000",
+        "type": "utility",
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "turn",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "special": "",
+          "override": false,
+          "value": 30
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "enchant": {},
+    "identifier": "blood-curse-of-the-soul-eater"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1751500000000,
+    "modifiedTime": 1751500000000,
+    "lastModifiedBy": "bloodhunterBuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!bhcSoulEater00000"
+}

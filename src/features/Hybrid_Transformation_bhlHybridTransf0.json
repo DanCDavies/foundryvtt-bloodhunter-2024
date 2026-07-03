@@ -1,0 +1,216 @@
+{
+  "_id": "bhlHybridTransf0",
+  "name": "Hybrid Transformation",
+  "type": "feat",
+  "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You learn to control the lycanthropic curse that courses through your veins. As a Bonus Action, you transform into a special hybrid form for up to 1 hour. You can speak, use equipment, and wear armor in this form, and you can revert to your normal form as a Bonus Action. You revert automatically if you have the Unconscious condition or die.</p>\n<p>This feature replaces the standard rules for lycanthropy. Once you use it, you can't use it again until you finish a Short or Long Rest.</p>\n<h4>Hybrid Transformation Features</h4>\n<p>While transformed, you gain the following benefits and drawbacks.</p>\n<p><strong>Feral Might.</strong> You have Advantage on Strength checks and Strength saving throws, and you gain a +1 bonus to melee damage rolls. This bonus increases to +2 at 11th level and to +3 at 18th level.</p>\n<p><strong>Resilient Hide.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage from nonmagical attacks that aren't made with Silvered weapons. In addition, while you aren't wearing Heavy armor, you gain a +1 bonus to your Armor Class.</p>\n<p><strong>Predatory Strikes.</strong> You can apply your Crimson Rite feature to your Unarmed Strikes, treating them as a single weapon for that feature. You can use Dexterity instead of Strength for the attack rolls and damage rolls of your Unarmed Strikes, which deal 1d6 Bludgeoning or Slashing damage (your choice). This die increases to 1d8 at 11th level. In addition, when you take the Attack action to make an Unarmed Strike on your turn, you can make one additional Unarmed Strike as a Bonus Action.</p>\n<p><strong>Bloodlust.</strong> If you start your turn with fewer than half your Hit Points remaining, you must succeed on a DC 8 Wisdom saving throw or move toward the nearest creature you can see and take the Attack action against it. If you're concentrating on a spell or are otherwise unable to concentrate (such as while raging), you automatically fail the save. If you have your Extra Attack feature, you choose whether to use it for this frenzied attack. If two or more creatures are equally near, roll randomly to determine the target. Once the attack is resolved, you regain control of yourself.</p>\n<section class=\"secret\"><p><strong>Foundry Note</strong></p><p>The Feral Might melee damage bonus in the Active Effect is set to +1. Manually increase it to +2 at 11th level (Advanced Transformation) and +3 at 18th level (Hybrid Transformation Mastery).</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {
+      "cxhbob0000000000": {
+        "type": "utility",
+        "name": "Hybrid Transformation",
+        "_id": "cxhbob0000000000",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "bheHybridTransf0"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 100000,
+        "img": "",
+        "roll": {
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "enchant": {},
+    "identifier": "hybrid-transformation"
+  },
+  "effects": [
+    {
+      "_id": "bheHybridTransf0",
+      "name": "Hybrid Transformation",
+      "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+      "type": "base",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "value": "bludgeoning",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.traits.dr.value",
+            "value": "piercing",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.traits.dr.value",
+            "value": "slashing",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.attributes.ac.bonus",
+            "value": "1",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.bonuses.mwak.damage",
+            "value": "+1",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.abilities.str.check.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.abilities.str.save.roll.mode",
+            "value": 1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.traits.dr.bypasses",
+            "value": "mgc",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.traits.dr.bypasses",
+            "value": "sil",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": 3600,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhlHybridTransf0.bheHybridTransf0"
+    }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhlHybridTransf0"
+}

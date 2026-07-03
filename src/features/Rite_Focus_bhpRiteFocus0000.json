@@ -1,0 +1,137 @@
+{
+  "_id": "bhpRiteFocus0000",
+  "name": "Rite Focus",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>While you have an active Crimson Rite, you gain a benefit determined by your patron.</p>\n<p><strong>The Archfey.</strong> When you damage a creature with a weapon for which you have an active Crimson Rite, that creature sheds faint light until the end of your next turn. For the duration, it gains no benefit from cover or from being Invisible against your attacks.</p>\n<p><strong>The Celestial.</strong> As a Bonus Action, you can expend one use of your Blood Maledict feature to restore Hit Points to a creature you can see within 60 feet of yourself equal to one roll of your Hemocraft die plus your Intelligence modifier (minimum of 1 Hit Point).</p>\n<p><strong>The Fiend.</strong> While using the Rite of the Flame, whenever you roll a 1 or 2 on a die for the rite's extra damage, you can reroll the die and must use the new roll.</p>\n<p><strong>The Great Old One.</strong> When you score a Critical Hit against a creature, that creature and any other creatures of your choice within 10 feet of it have the Frightened condition until the end of your next turn (you are the source of the fear).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {
+      "oonml30000000000": {
+        "type": "heal",
+        "name": "Rite Focus (Celestial)",
+        "_id": "oonml30000000000",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": "While you have an active Crimson Rite and your patron is the Celestial"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhBloodMaledict0"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false,
+          "value": ""
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "value": 60,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "healing": {
+          "number": 1,
+          "denomination": null,
+          "bonus": "@mod.int",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 100000,
+        "img": "",
+        "roll": {
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "enchant": {},
+    "identifier": "rite-focus"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhpRiteFocus0000"
+}

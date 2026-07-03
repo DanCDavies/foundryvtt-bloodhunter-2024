@@ -1,0 +1,118 @@
+{
+  "_id": "bhDarkAugment000",
+  "name": "Dark Augmentation",
+  "ownership": {
+    "default": 0
+  },
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Hemocraft suffuses your body, permanently reinforcing your resilience. Your Speed increases by 10 feet, and you gain a bonus to Strength, Dexterity, and Constitution saving throws equal to your Intelligence modifier (minimum bonus of +1).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "book": "",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Blood Hunter",
+    "properties": [],
+    "activities": {},
+    "enchant": {},
+    "prerequisites": {
+      "level": 10
+    },
+    "identifier": "dark-augmentation"
+  },
+  "flags": {},
+  "img": "icons/magic/control/buff-flight-wings-rune-purple.webp",
+  "effects": [
+    {
+      "_id": "bheDarkAugment00",
+      "name": "Dark Augmentation",
+      "img": "icons/magic/control/buff-flight-wings-rune-purple.webp",
+      "type": "base",
+      "disabled": false,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.walk",
+            "value": "10",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.abilities.str.bonuses.save",
+            "value": "max(@abilities.int.mod, 1)",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.abilities.dex.bonuses.save",
+            "value": "max(@abilities.int.mod, 1)",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.abilities.con.bonuses.save",
+            "value": "max(@abilities.int.mod, 1)",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhDarkAugment000.bheDarkAugment00"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhDarkAugment000"
+}

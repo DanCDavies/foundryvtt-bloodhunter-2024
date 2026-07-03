@@ -1,0 +1,105 @@
+{
+  "_id": "bhmfRapidity0000",
+  "name": "Rapidity",
+  "type": "feat",
+  "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Effect:</strong> Your Speed increases by 10 feet, and by an additional 5 feet at 15th level.</p>\n<p><strong>Side Effect:</strong> You have Disadvantage on Intelligence checks.</p>\n<section class=\"secret\"><p><strong>Foundry Note</strong></p><p>Speed bonus increases to +15 at 15th level. Adjust the effect value manually.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "mutagenFormula"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Blood Hunter (Order of the Mutant)",
+    "activities": {},
+    "enchant": {},
+    "identifier": "rapidity"
+  },
+  "effects": [
+    {
+      "_id": "bhefRapidity0000",
+      "name": "Rapidity",
+      "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+      "type": "base",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.walk",
+            "value": "10",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.abilities.int.check.roll.mode",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhmfRapidity0000.bhefRapidity0000"
+    }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhmfRapidity0000"
+}

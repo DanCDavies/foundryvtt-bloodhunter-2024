@@ -1,0 +1,127 @@
+{
+  "_id": "bhmBrandAxiom000",
+  "name": "Brand of Axiom",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your mutagenic hemocraft lets your Brand of Castigation reveal a foe's true nature. Any Illusion or Invisibility effect active on a creature ends when you brand it, and the creature can't benefit from Illusion or Invisibility effects while branded by you.</p>\n<p>If a creature branded by you is in an alternate form (by means of the <em>Polymorph</em> spell, the Change Shape action, a Shapechanger trait, the Wild Shape feature, or a similar effect), it must succeed on a Wisdom saving throw against your Hemocraft save DC or revert to its true form and have the Stunned condition until the end of your next turn. Whenever a creature branded by you attempts to change its form, it must succeed on a Wisdom saving throw against your Hemocraft save DC or have the attempt fail and gain the Stunned condition until the end of your next turn.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 11
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {
+      "39b0ow0000000000": {
+        "type": "save",
+        "name": "Brand of Axiom",
+        "_id": "39b0ow0000000000",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "When you brand a creature in an alternate form"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false,
+          "value": ""
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "value": 30,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "int",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "parts": [],
+          "onSave": ""
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 100000,
+        "img": "",
+        "roll": {
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "enchant": {},
+    "identifier": "brand-of-axiom"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhmBrandAxiom000"
+}

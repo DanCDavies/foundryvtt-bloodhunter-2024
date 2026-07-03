@@ -1,0 +1,135 @@
+{
+  "_id": "bhsGhostslayer000",
+  "name": "Order of the Ghostslayer",
+  "type": "subclass",
+  "img": "icons/magic/light/explosion-star-large-orange-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>The Order of the Ghostslayer is the oldest of the blood hunter orders, its members having rediscovered the secrets of hemocraft and refined them for combat against the scourge of undeath. Ghostslayers seek out and study the moment of death, obsessing over the mystery of the transition from life and the unholy power that can cause the dead to rise once more. These zealous hunters make it their life's work to destroy undeath wherever it is found, tuning their abilities to engage Undead and those who wield the necromancy that creates them.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "identifier": "ghostslayer",
+    "classIdentifier": "blood-hunter",
+    "advancement": [
+      {
+        "_id": "bhsgs01FeatL03a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgRiteDawn000000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgCurseSpecial00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Ghostslayer Features"
+      },
+      {
+        "_id": "bhsgs02FeatL07a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgAetherWalk0000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Ghostslayer Features"
+      },
+      {
+        "_id": "bhsgs03FeatL11a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgBrandSunder000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "Ghostslayer Features"
+      },
+      {
+        "_id": "bhsgs04FeatL15a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcExorcist000000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Blood Curse of the Exorcist"
+      },
+      {
+        "_id": "bhsgs05FeatL18a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgRiteRevival000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "Ghostslayer Features"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhsGhostslayer000"
+}

@@ -1,0 +1,53 @@
+{
+  "_id": "bhgRiteDawn000000",
+  "name": "Rite of the Dawn",
+  "type": "feat",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "system": {
+    "description": {
+      "value": "<p>You learn the Rite of the Dawn, which counts as a rite for your Crimson Rite feature. When you activate it, the extra damage of your rite is Radiant damage. While the Rite of the Dawn is active on your weapon, you gain the following benefits.</p>\n<ul>\n<li>Your weapon sheds Bright Light in a 20-foot radius.</li>\n<li>You have Resistance to Necrotic damage.</li>\n<li>Whenever you hit an Undead with a weapon for which the Rite of the Dawn is active, you roll an additional Hemocraft die when determining the rite's extra damage.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {},
+    "enchant": {},
+    "identifier": "rite-of-the-dawn"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhgRiteDawn000000"
+}

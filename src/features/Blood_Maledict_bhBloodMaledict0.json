@@ -1,0 +1,128 @@
+{
+  "_id": "bhBloodMaledict0",
+  "name": "Blood Maledict",
+  "ownership": {
+    "default": 0
+  },
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You gain the ability to channel—and sometimes to sacrifice—a part of your vital essence to curse and manipulate other creatures through hemocraft magic. You know one Blood Curse of your choice. You learn one additional Blood Curse at 6th, 10th, 14th, and 18th level. Each time you learn a new Blood Curse, you can also replace one Blood Curse you know with a different one.</p>\n<p>When you use Blood Maledict, you choose which curse to invoke from those you know. While invoking a Blood Curse, but before it affects the target, you can choose to <strong>amplify</strong> the curse by taking Necrotic damage equal to one roll of your Hemocraft die (@scale.blood-hunter.hemocraft-die). This damage can't be reduced in any way. An amplified curse gains an additional effect, noted in the curse's description. A creature that has no blood is immune to your Blood Curses unless you amplify the curse.</p>\n<p>You can use this feature once. You regain all expended uses when you finish a Short or Long Rest. You can use Blood Maledict twice between rests starting at 6th level, three times starting at 13th level, and four times starting at 17th level.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "book": "",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "@scale.blood-hunter.blood-maledict",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Blood Hunter",
+    "properties": [],
+    "activities": {
+      "bhBloodMalAct00": {
+        "_id": "bhBloodMalAct00",
+        "type": "utility",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "enchant": {},
+    "prerequisites": {
+      "level": 1
+    },
+    "identifier": "blood-maledict"
+  },
+  "flags": {},
+  "img": "icons/magic/unholy/strike-body-life-steal-red.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhBloodMaledict0"
+}

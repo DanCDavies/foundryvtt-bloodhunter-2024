@@ -1,0 +1,135 @@
+{
+  "_id": "bhcCorrosion00000",
+  "name": "Blood Curse of Corrosion",
+  "type": "feat",
+  "folder": null,
+  "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prerequisite: Level 15, Order of the Mutant</em></p><p>As a Bonus Action, you curse a creature you can see within 30 feet of yourself, giving it the Poisoned condition. The cursed creature repeats a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.</p><p><strong>Amplify.</strong> The cursed creature takes 4d6 Necrotic damage when you inflict the curse, and it takes this damage again each time it fails a Constitution saving throw to end the curse.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "bloodCurse"
+    },
+    "prerequisites": {
+      "level": 15,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Blood Hunter (Order of the Mutant)",
+    "activities": {
+      "bhcCorrosionAct0": {
+        "_id": "bhcCorrosionAct0",
+        "type": "save",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "special": "",
+          "override": false,
+          "value": 30
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "sort": 0,
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "int",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        }
+      }
+    },
+    "enchant": {},
+    "identifier": "blood-curse-of-corrosion"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1751500000000,
+    "modifiedTime": 1751500000000,
+    "lastModifiedBy": "bloodhunterBuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!bhcCorrosion00000"
+}

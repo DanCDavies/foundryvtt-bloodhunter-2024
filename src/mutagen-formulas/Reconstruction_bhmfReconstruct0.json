@@ -1,0 +1,99 @@
+{
+  "_id": "bhmfReconstruct0",
+  "name": "Reconstruction",
+  "type": "feat",
+  "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prerequisite: Blood Hunter Level 7</em></p>\n<p><strong>Effect:</strong> For 1 hour, at the start of each of your turns when you have at least 1 Hit Point but fewer than half your Hit Points remaining, you regain Hit Points equal to your Proficiency Bonus.</p>\n<p><strong>Side Effect:</strong> Your Speed is reduced by 10 feet for that hour.</p>\n<section class=\"secret\"><p><strong>Foundry Note</strong></p><p>Regeneration (regain HP equal to Proficiency Bonus at start of turn when below half HP) cannot be automated via Active Effects. Track this manually.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "mutagenFormula"
+    },
+    "prerequisites": {
+      "level": 7
+    },
+    "properties": [],
+    "requirements": "Blood Hunter (Order of the Mutant)",
+    "activities": {},
+    "enchant": {},
+    "identifier": "reconstruction"
+  },
+  "effects": [
+    {
+      "_id": "bhefReconstruct0",
+      "name": "Reconstruction",
+      "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+      "type": "base",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.walk",
+            "value": "-10",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhmfReconstruct0.bhefReconstruct0"
+    }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhmfReconstruct0"
+}

@@ -1,0 +1,111 @@
+{
+  "_id": "bhmfAether000000",
+  "name": "Aether",
+  "type": "feat",
+  "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prerequisite: Blood Hunter Level 11</em></p>\n<p><strong>Effect:</strong> You gain a Fly Speed of 20 feet for 1 hour.</p>\n<p><strong>Side Effect:</strong> You have Disadvantage on Strength and Dexterity checks for that hour.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "mutagenFormula"
+    },
+    "prerequisites": {
+      "level": 11
+    },
+    "properties": [],
+    "requirements": "Blood Hunter (Order of the Mutant)",
+    "activities": {},
+    "enchant": {},
+    "identifier": "aether"
+  },
+  "effects": [
+    {
+      "_id": "bhefAether000000",
+      "name": "Aether",
+      "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+      "type": "base",
+      "disabled": true,
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.fly",
+            "value": "20",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.abilities.str.check.roll.mode",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.abilities.dex.check.roll.mode",
+            "value": -1,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14",
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": "dnd5ebuilder0000",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bhmfAether000000.bhefAether000000"
+    }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhmfAether000000"
+}

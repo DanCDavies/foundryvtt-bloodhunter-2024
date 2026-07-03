@@ -1,0 +1,58 @@
+{
+  "_id": "bhpRevealedArcan",
+  "name": "Revealed Arcana",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your patron grants you a signature spell. You always have the spell prepared, and it doesn't count against your number of Prepared Spells. You can cast it once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest. You can also cast it using Pact Magic spell slots you have.</p>\n<table>\n<thead><tr><th>Patron</th><th>Spell</th></tr></thead>\n<tbody>\n<tr><td>The Archfey</td><td><em>Blur</em></td></tr>\n<tr><td>The Celestial</td><td><em>Lesser Restoration</em></td></tr>\n<tr><td>The Fiend</td><td><em>Scorching Ray</em></td></tr>\n<tr><td>The Great Old One</td><td><em>Detect Thoughts</em></td></tr>\n</tbody>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 7
+    },
+    "properties": [],
+    "requirements": "Blood Hunter",
+    "activities": {},
+    "enchant": {},
+    "identifier": "revealed-arcana"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhpRevealedArcan"
+}

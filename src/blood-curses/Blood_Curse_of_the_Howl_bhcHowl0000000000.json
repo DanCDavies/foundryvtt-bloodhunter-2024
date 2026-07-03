@@ -1,0 +1,135 @@
+{
+  "_id": "bhcHowl0000000000",
+  "name": "Blood Curse of the Howl",
+  "type": "feat",
+  "folder": null,
+  "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prerequisite: Level 18, Order of the Lycan</em></p><p>As a Magic action, you unleash a bloodcurdling howl. Each creature of your choice within 30 feet of yourself that can hear you must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. While Frightened this way, a creature can take only one of the following on each of its turns: move, take an action, or take a Bonus Action. If a creature fails the save by 5 or more, it also has the Stunned condition while Frightened this way. A creature that succeeds on the save is immune to this curse for the next 24 hours.</p><p><strong>Amplify.</strong> The range of the howl increases to 60 feet.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "bloodCurse"
+    },
+    "prerequisites": {
+      "level": 18,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Blood Hunter (Order of the Lycan)",
+    "activities": {
+      "bhcHowlActivity0": {
+        "_id": "bhcHowlActivity0",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "minute",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "special": "",
+          "override": false,
+          "value": 30
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "sort": 0,
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "int",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        }
+      }
+    },
+    "enchant": {},
+    "identifier": "blood-curse-of-the-howl"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1751500000000,
+    "modifiedTime": 1751500000000,
+    "lastModifiedBy": "bloodhunterBuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!bhcHowl0000000000"
+}

@@ -1,0 +1,213 @@
+{
+  "_id": "bhsProfaneSoul000",
+  "name": "Order of the Profane Soul",
+  "type": "subclass",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "system": {
+    "description": {
+      "value": "<p>Blood hunters of the Order of the Profane Soul have pushed the limits of hemocraft to wield it against some of the most terrifying creatures corrupting the world. Ancient fiends and cruel spellcasters have long relied on their ability to melt into the background and slip away from those who hunt them, vanishing into noble courts without a trace or bending the minds of stalwart warriors with a glance. So the founders of this order trusted in their own resilience as they delved into the same well of corrupting arcane knowledge, making pacts with lesser evils to better combat the greater ones.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "identifier": "profane-soul",
+    "classIdentifier": "blood-hunter",
+    "advancement": [
+      {
+        "_id": "bhsps01FeatL03a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhpOtherworldly0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhpPactMagic0000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhpRiteFocus0000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Profane Soul Features"
+      },
+      {
+        "_id": "bhsps02ScaleCntr",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "profane-soul-cantrips",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 2
+            },
+            "10": {
+              "value": 3
+            }
+          }
+        },
+        "value": {},
+        "title": "Cantrips Known",
+        "hint": ""
+      },
+      {
+        "_id": "bhsps03ScalePrep",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "profane-soul-prepared",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 2
+            },
+            "5": {
+              "value": 3
+            },
+            "7": {
+              "value": 4
+            },
+            "9": {
+              "value": 5
+            },
+            "11": {
+              "value": 6
+            },
+            "13": {
+              "value": 7
+            },
+            "15": {
+              "value": 8
+            },
+            "17": {
+              "value": 9
+            },
+            "19": {
+              "value": 10
+            },
+            "20": {
+              "value": 11
+            }
+          }
+        },
+        "value": {},
+        "title": "Prepared Spells",
+        "hint": ""
+      },
+      {
+        "_id": "bhsps04FeatL07a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhpMysticFrenzy0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhpRevealedArcan",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Profane Soul Features"
+      },
+      {
+        "_id": "bhsps05FeatL11a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhpBrandSapping0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "Profane Soul Features"
+      },
+      {
+        "_id": "bhsps06FeatL15a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhpUnsealedArcan",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Profane Soul Features"
+      },
+      {
+        "_id": "bhsps07FeatL18a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcSoulEater00000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "Blood Curse of the Soul Eater"
+      }
+    ],
+    "spellcasting": {
+      "progression": "profane-soul",
+      "ability": "int",
+      "preparation": {
+        "formula": "@scale.blood-hunter.profane-soul-prepared"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhsProfaneSoul000"
+}

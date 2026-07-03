@@ -1,0 +1,20 @@
+# Agents
+.claude
+agents.md
+claude.md
+
+# Environment
+.env
+
+# Other
+packs/
+source/
+*.pdf
+.build-tmp/
+.pdf/
+node_modules/
+packs/
+source/
+*.pdf
+prompt*.md
+.pdf/

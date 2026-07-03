@@ -1,0 +1,347 @@
+{
+  "_id": "bhsMutant00000000",
+  "name": "Order of the Mutant",
+  "type": "subclass",
+  "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Undertaking the Hunter's Bane ritual is a painful, scarring, and not uncommonly fatal experience. Those who survive are irrevocably changed—and not always for the better. Over generations of experimentation, a splinter order of blood hunters honed the way hemocraft alters the body, using corrupted alchemy and toxic elixirs to reshape their blood still further. Calling themselves the Order of the Mutant, these blood hunters specialize in assessing the strengths and weaknesses of their foes and altering their own biology to be ready for any conflict.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "identifier": "mutant",
+    "classIdentifier": "blood-hunter",
+    "advancement": [
+      {
+        "_id": "bhsmu01FeatL03a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmMutagencraft0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmFormulas00000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Mutant Features"
+      },
+      {
+        "_id": "bhsmu02ScaleBrew",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "mutagens-brewed",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 1
+            },
+            "7": {
+              "value": 2
+            },
+            "15": {
+              "value": 3
+            }
+          }
+        },
+        "value": {},
+        "title": "Mutagens Brewed",
+        "hint": ""
+      },
+      {
+        "_id": "bhsmu03ScaleForm",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "formulas-known",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 4
+            },
+            "7": {
+              "value": 5
+            },
+            "11": {
+              "value": 6
+            },
+            "15": {
+              "value": 7
+            },
+            "18": {
+              "value": 8
+            }
+          }
+        },
+        "value": {},
+        "title": "Formulas Known",
+        "hint": ""
+      },
+      {
+        "_id": "bhsmu04FormulaC0",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "3": {
+              "count": 4,
+              "replacement": true
+            },
+            "4": {
+              "count": null,
+              "replacement": true
+            },
+            "5": {
+              "count": null,
+              "replacement": true
+            },
+            "6": {
+              "count": null,
+              "replacement": true
+            },
+            "7": {
+              "count": 1,
+              "replacement": true
+            },
+            "8": {
+              "count": null,
+              "replacement": true
+            },
+            "9": {
+              "count": null,
+              "replacement": true
+            },
+            "10": {
+              "count": null,
+              "replacement": true
+            },
+            "11": {
+              "count": 1,
+              "replacement": true
+            },
+            "12": {
+              "count": null,
+              "replacement": true
+            },
+            "13": {
+              "count": null,
+              "replacement": true
+            },
+            "14": {
+              "count": null,
+              "replacement": true
+            },
+            "15": {
+              "count": 1,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": null,
+              "replacement": true
+            },
+            "18": {
+              "count": 1,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfAether000000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfAlluring0000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfCelerity0000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfConversant000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfCruelty00000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfDeftness0000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfEmbers000000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfGelid0000000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfImpermeable0"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfMobility0000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfNighteye0000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfPercipient00"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfPotency00000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfPrecision000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfRapidity0000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfReconstruct0"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfSagacity0000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfShielded0000"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfUnbreakable0"
+            },
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfVermilion000"
+            }
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "feat",
+            "subtype": "mutagenFormula",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Mutagen Formulas",
+        "hint": "Choose mutagen formulas you know. You can replace one formula each time you learn a new one."
+      },
+      {
+        "_id": "bhsmu05FeatL07a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmStrangeMetab0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Mutant Features"
+      },
+      {
+        "_id": "bhsmu06FeatL11a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmBrandAxiom000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "Mutant Features"
+      },
+      {
+        "_id": "bhsmu07FeatL15a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcCorrosion00000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Blood Curse of Corrosion"
+      },
+      {
+        "_id": "bhsmu08FeatL18a0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmExaltedMutat0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "Mutant Features"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhsMutant00000000"
+}
