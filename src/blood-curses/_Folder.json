@@ -3,7 +3,7 @@
   "sorting": "a",
   "folder": null,
   "type": "Item",
-  "_id": "bhfBloodCurses000",
+  "_id": "bhfBloodCurses00",
   "description": "",
   "sort": 400000,
   "color": null,
@@ -15,7 +15,7 @@
     "systemVersion": "5.3.3",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": "bloodhunterbuilder"
+    "lastModifiedBy": "bhbuilder0000000"
   },
-  "_key": "!folders!bhfBloodCurses000"
+  "_key": "!folders!bhfBloodCurses00"
 }

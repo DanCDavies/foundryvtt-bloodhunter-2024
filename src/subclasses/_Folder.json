@@ -3,7 +3,7 @@
   "sorting": "a",
   "folder": null,
   "type": "Item",
-  "_id": "bhfSubclasses0000",
+  "_id": "bhfSubclasses000",
   "description": "",
   "sort": 200000,
   "color": null,
@@ -15,7 +15,7 @@
     "systemVersion": "5.3.3",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": "bloodhunterbuilder"
+    "lastModifiedBy": "bhbuilder0000000"
   },
-  "_key": "!folders!bhfSubclasses0000"
+  "_key": "!folders!bhfSubclasses000"
 }
