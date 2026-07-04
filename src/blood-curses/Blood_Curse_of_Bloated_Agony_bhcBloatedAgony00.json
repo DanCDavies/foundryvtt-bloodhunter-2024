@@ -2,7 +2,7 @@
   "_id": "bhcBloatedAgony00",
   "name": "Blood Curse of Bloated Agony",
   "type": "feat",
-  "folder": null,
+  "folder": "bhfBloodCurses000",
   "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
   "system": {
     "description": {

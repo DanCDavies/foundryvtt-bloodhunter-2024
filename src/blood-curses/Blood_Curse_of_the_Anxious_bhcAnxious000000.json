@@ -2,7 +2,7 @@
   "_id": "bhcAnxious000000",
   "name": "Blood Curse of the Anxious",
   "type": "feat",
-  "folder": null,
+  "folder": "bhfBloodCurses000",
   "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
   "system": {
     "description": {

@@ -1,0 +1,21 @@
+{
+  "name": "Class",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "bhfClass000000000",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "bloodhunterbuilder"
+  },
+  "_key": "!folders!bhfClass000000000"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Mutagen Formulas",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "bhfMutagenFormula",
+  "description": "",
+  "sort": 500000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.347",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "bloodhunterbuilder"
+  },
+  "_key": "!folders!bhfMutagenFormula"
+}

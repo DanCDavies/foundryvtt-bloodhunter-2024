@@ -2,7 +2,7 @@
   "_id": "bhcFallenPuppet00",
   "name": "Blood Curse of the Fallen Puppet",
   "type": "feat",
-  "folder": null,
+  "folder": "bhfBloodCurses000",
   "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
   "system": {
     "description": {
