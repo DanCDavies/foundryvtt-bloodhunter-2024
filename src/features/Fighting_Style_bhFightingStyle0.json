@@ -1,0 +1,55 @@
+{
+  "_id": "bhFightingStyle0",
+  "name": "Fighting Style",
+  "type": "feat",
+  "img": "icons/skills/melee/hand-grip-staff-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have honed your martial prowess and gain a Fighting Style feat of your choice. Archery, Dueling, Great Weapon Fighting, and Two-Weapon Fighting are all fitting choices.</p><p>Whenever you gain a Blood Hunter level, you can replace the feat you chose with a different Fighting Style feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Blood Hunter 2024 Homebrew",
+      "rules": "2024",
+      "revision": 1,
+      "license": "",
+      "book": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 2,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "activities": {},
+    "enchant": {},
+    "identifier": "fighting-style"
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  },
+  "_key": "!items!bhFightingStyle0",
+  "folder": "bhfFeatures00000"
+}

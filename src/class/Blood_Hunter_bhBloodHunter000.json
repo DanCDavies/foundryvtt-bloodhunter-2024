@@ -407,6 +407,10 @@
         "configuration": {
           "items": [
             {
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhFightingStyle0",
+              "optional": false
+            },
+            {
               "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhCrimsonRite000",
               "optional": false
             }
