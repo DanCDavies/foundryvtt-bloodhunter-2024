@@ -1,12 +1,12 @@
 {
-  "_id": "bhcExorcist000000",
-  "name": "Blood Curse of the Exorcist",
+  "_id": "bhcEyeless000000",
+  "name": "Blood Curse of the Eyeless",
   "type": "feat",
   "folder": "bhfBloodCurses00",
   "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
   "system": {
     "description": {
-      "value": "<p><em>Prerequisite: Level 15, Order of the Ghostslayer</em></p><p>As a Bonus Action, choose one creature you can see within 30 feet of yourself that has the Charmed or Frightened condition or that is affected by a possession effect. That creature is no longer Charmed, Frightened, or possessed.</p><p><strong>Amplify.</strong> A creature that charmed, frightened, or possessed the target takes 3d6 Psychic damage and must succeed on a Wisdom saving throw or have the Stunned condition until the end of your next turn.</p>",
+      "value": "<p>When a creature you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to roll one Hemocraft die and subtract the number rolled from the attack roll. You can use this curse after the creature rolls but before the DM determines whether the attack hits. A creature is immune to this curse if it is immune to the Blinded condition.</p><p><strong>Amplify.</strong> The curse applies to all the creature's attack rolls until the end of its turn. Roll separately for each affected attack.</p>",
       "chat": ""
     },
     "source": {
@@ -26,17 +26,17 @@
       "subtype": "bloodCurse"
     },
     "prerequisites": {
-      "level": 15,
+      "level": null,
       "repeatable": false
     },
     "properties": [],
-    "requirements": "Blood Hunter (Order of the Ghostslayer)",
+    "requirements": "Blood Hunter",
     "activities": {
-      "bhcExorcistAct00": {
-        "_id": "bhcExorcistAct00",
+      "bhcEyelessAct000": {
+        "_id": "bhcEyelessAct000",
         "type": "utility",
         "activation": {
-          "type": "bonus",
+          "type": "reaction",
           "value": null,
           "condition": "",
           "override": false
@@ -93,7 +93,7 @@
       }
     },
     "enchant": {},
-    "identifier": "blood-curse-of-the-exorcist"
+    "identifier": "blood-curse-of-the-eyeless"
   },
   "effects": [],
   "flags": {
@@ -111,12 +111,12 @@
     "systemVersion": "5.3.3",
     "createdTime": 1751500000000,
     "modifiedTime": 1751500000000,
-    "lastModifiedBy": "bloodhunterBuilder",
+    "lastModifiedBy": "bhbuilder0000000",
     "exportSource": null
   },
   "sort": 0,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!bhcExorcist000000"
+  "_key": "!items!bhcEyeless000000"
 }

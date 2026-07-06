@@ -1,8 +1,8 @@
 {
-  "_id": "bhsMutant00000000",
+  "_id": "bhsMutant0000000",
   "name": "Order of the Mutant",
   "type": "subclass",
-  "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
+  "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
   "system": {
     "description": {
       "value": "<p>Undertaking the Hunter's Bane ritual is a painful, scarring, and not uncommonly fatal experience. Those who survive are irrevocably changed—and not always for the better. Over generations of experimentation, a splinter order of blood hunters honed the way hemocraft alters the body, using corrupted alchemy and toxic elixirs to reshape their blood still further. Calling themselves the Order of the Mutant, these blood hunters specialize in assessing the strengths and weaknesses of their foes and altering their own biology to be ready for any conflict.</p>",
@@ -186,7 +186,7 @@
               "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfCelerity0000"
             },
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfConversant000"
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfConversant00"
             },
             {
               "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhmfCruelty00000"
@@ -291,7 +291,7 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcCorrosion00000",
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcCorrosion0000",
               "optional": false
             }
           ],
@@ -343,5 +343,5 @@
     "lastModifiedBy": "dnd5ebuilder0000",
     "exportSource": null
   },
-  "_key": "!items!bhsMutant00000000"
+  "_key": "!items!bhsMutant0000000"
 }

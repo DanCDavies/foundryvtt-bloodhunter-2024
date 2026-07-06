@@ -1,12 +1,12 @@
 {
-  "_id": "bhcSoulEater00000",
-  "name": "Blood Curse of the Soul Eater",
+  "_id": "bhcMuddledMind00",
+  "name": "Blood Curse of the Muddled Mind",
   "type": "feat",
   "folder": "bhfBloodCurses00",
   "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
   "system": {
     "description": {
-      "value": "<p><em>Prerequisite: Level 18, Order of the Profane Soul</em></p><p>When a creature that isn't a Construct or an Undead is reduced to 0 Hit Points within 30 feet of yourself, you can take a Reaction to offer its life energy to your patron in exchange for power. Until the end of your next turn, you make attack rolls with Advantage and have Resistance to all damage.</p><p><strong>Amplify.</strong> You also regain one expended Pact Magic spell slot. Once you amplify this curse, you can't do so again until you finish a Long Rest.</p>",
+      "value": "<p>As a Bonus Action, you curse a creature you can see within 30 feet of yourself that is concentrating on a spell or sustaining an effect that requires Concentration. The creature has Disadvantage on the next Constitution saving throw it makes to maintain Concentration before the end of your next turn.</p><p><strong>Amplify.</strong> The cursed creature has Disadvantage on all Constitution saving throws made to maintain Concentration until the end of your next turn.</p>",
       "chat": ""
     },
     "source": {
@@ -26,17 +26,17 @@
       "subtype": "bloodCurse"
     },
     "prerequisites": {
-      "level": 18,
+      "level": null,
       "repeatable": false
     },
     "properties": [],
-    "requirements": "Blood Hunter (Order of the Profane Soul)",
+    "requirements": "Blood Hunter",
     "activities": {
-      "bhcSoulEatAct000": {
-        "_id": "bhcSoulEatAct000",
+      "bhcMuddledAct000": {
+        "_id": "bhcMuddledAct000",
         "type": "utility",
         "activation": {
-          "type": "reaction",
+          "type": "bonus",
           "value": null,
           "condition": "",
           "override": false
@@ -93,7 +93,7 @@
       }
     },
     "enchant": {},
-    "identifier": "blood-curse-of-the-soul-eater"
+    "identifier": "blood-curse-of-the-muddled-mind"
   },
   "effects": [],
   "flags": {
@@ -111,12 +111,12 @@
     "systemVersion": "5.3.3",
     "createdTime": 1751500000000,
     "modifiedTime": 1751500000000,
-    "lastModifiedBy": "bloodhunterBuilder",
+    "lastModifiedBy": "bhbuilder0000000",
     "exportSource": null
   },
   "sort": 0,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!bhcSoulEater00000"
+  "_key": "!items!bhcMuddledMind00"
 }

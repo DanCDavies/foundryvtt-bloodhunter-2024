@@ -1,5 +1,5 @@
 {
-  "_id": "bhmfConversant000",
+  "_id": "bhmfConversant00",
   "name": "Conversant",
   "type": "feat",
   "img": "icons/consumables/potions/bottle-round-corked-purple.webp",
@@ -83,7 +83,7 @@
       "start": null,
       "showIcon": 1,
       "folder": null,
-      "_key": "!items.effects!bhmfConversant000.bhefConversant00"
+      "_key": "!items.effects!bhmfConversant00.bhefConversant00"
     }
   ],
   "flags": {},
@@ -101,6 +101,6 @@
     "lastModifiedBy": "dnd5ebuilder0000",
     "exportSource": null
   },
-  "_key": "!items!bhmfConversant000",
+  "_key": "!items!bhmfConversant00",
   "folder": "bhfMutagenFormu0"
 }

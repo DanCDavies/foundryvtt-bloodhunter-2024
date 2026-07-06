@@ -1,11 +1,11 @@
 {
-  "_id": "bhgRiteRevival000",
-  "name": "Rite Revival",
+  "_id": "bhgBrandSunder00",
+  "name": "Brand of Sundering",
   "type": "feat",
   "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
   "system": {
     "description": {
-      "value": "<p>You learn to protect your fading life by reabsorbing the energy you feed to your weapons. If you have at least one active Crimson Rite and you are reduced to 0 Hit Points but not killed outright, you can choose to end all your active Crimson Rites and drop to 1 Hit Point instead.</p>\n<p>Once you use this feature, you can't use it again until you finish a Long Rest.</p>",
+      "value": "<p>Your Brand of Castigation exposes a fragment of your foe's essence, leaving it vulnerable to your rites. Whenever you hit a creature branded by you with a weapon for which you have an active Crimson Rite, you roll an additional Hemocraft die when determining the rite's extra damage.</p>\n<p>In addition, a creature branded by you that has the Incorporeal Movement trait (or a similar trait) can't move through creatures or objects while branded.</p>",
       "chat": ""
     },
     "source": {
@@ -16,27 +16,22 @@
       "book": ""
     },
     "uses": {
-      "max": "1",
+      "max": "",
       "spent": 0,
-      "recovery": [
-        {
-          "period": "lr",
-          "type": "recoverAll"
-        }
-      ]
+      "recovery": []
     },
     "type": {
       "value": "class",
       "subtype": ""
     },
     "prerequisites": {
-      "level": 18
+      "level": 11
     },
     "properties": [],
     "requirements": "Blood Hunter",
     "activities": {},
     "enchant": {},
-    "identifier": "rite-revival"
+    "identifier": "brand-of-sundering"
   },
   "effects": [],
   "flags": {},
@@ -54,6 +49,6 @@
     "lastModifiedBy": "dnd5ebuilder0000",
     "exportSource": null
   },
-  "_key": "!items!bhgRiteRevival000",
+  "_key": "!items!bhgBrandSunder00",
   "folder": "bhfFeatures00000"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "bhsProfaneSoul000",
+  "_id": "bhsProfaneSoul00",
   "name": "Order of the Profane Soul",
   "type": "subclass",
   "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
@@ -172,7 +172,7 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcSoulEater00000",
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcSoulEater0000",
               "optional": false
             }
           ],
@@ -209,5 +209,5 @@
     "lastModifiedBy": "dnd5ebuilder0000",
     "exportSource": null
   },
-  "_key": "!items!bhsProfaneSoul000"
+  "_key": "!items!bhsProfaneSoul00"
 }

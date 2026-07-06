@@ -1,12 +1,12 @@
 {
-  "_id": "bhcExposure000000",
-  "name": "Blood Curse of Exposure",
+  "_id": "bhcSoulEater0000",
+  "name": "Blood Curse of the Soul Eater",
   "type": "feat",
   "folder": "bhfBloodCurses00",
   "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
   "system": {
     "description": {
-      "value": "<p>When a creature you can see within 30 feet of yourself takes damage from an attack roll or a spell, you can take a Reaction to weaken its resilience. Until the end of the target's next turn, it loses Resistance to the damage types dealt by the triggering effect, including against that triggering effect.</p><p><strong>Amplify.</strong> The target instead loses Immunity to those damage types, but it has Resistance to them until the end of its next turn.</p>",
+      "value": "<p><em>Prerequisite: Level 18, Order of the Profane Soul</em></p><p>When a creature that isn't a Construct or an Undead is reduced to 0 Hit Points within 30 feet of yourself, you can take a Reaction to offer its life energy to your patron in exchange for power. Until the end of your next turn, you make attack rolls with Advantage and have Resistance to all damage.</p><p><strong>Amplify.</strong> You also regain one expended Pact Magic spell slot. Once you amplify this curse, you can't do so again until you finish a Long Rest.</p>",
       "chat": ""
     },
     "source": {
@@ -26,14 +26,14 @@
       "subtype": "bloodCurse"
     },
     "prerequisites": {
-      "level": null,
+      "level": 18,
       "repeatable": false
     },
     "properties": [],
-    "requirements": "Blood Hunter",
+    "requirements": "Blood Hunter (Order of the Profane Soul)",
     "activities": {
-      "bhcExposureAct00": {
-        "_id": "bhcExposureAct00",
+      "bhcSoulEatAct000": {
+        "_id": "bhcSoulEatAct000",
         "type": "utility",
         "activation": {
           "type": "reaction",
@@ -93,7 +93,7 @@
       }
     },
     "enchant": {},
-    "identifier": "blood-curse-of-exposure"
+    "identifier": "blood-curse-of-the-soul-eater"
   },
   "effects": [],
   "flags": {
@@ -111,12 +111,12 @@
     "systemVersion": "5.3.3",
     "createdTime": 1751500000000,
     "modifiedTime": 1751500000000,
-    "lastModifiedBy": "bloodhunterBuilder",
+    "lastModifiedBy": "bhbuilder0000000",
     "exportSource": null
   },
   "sort": 0,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!bhcExposure000000"
+  "_key": "!items!bhcSoulEater0000"
 }

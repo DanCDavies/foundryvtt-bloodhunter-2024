@@ -1,12 +1,12 @@
 {
-  "_id": "bhcEyeless0000000",
-  "name": "Blood Curse of the Eyeless",
+  "_id": "bhcExposure00000",
+  "name": "Blood Curse of Exposure",
   "type": "feat",
   "folder": "bhfBloodCurses00",
   "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
   "system": {
     "description": {
-      "value": "<p>When a creature you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to roll one Hemocraft die and subtract the number rolled from the attack roll. You can use this curse after the creature rolls but before the DM determines whether the attack hits. A creature is immune to this curse if it is immune to the Blinded condition.</p><p><strong>Amplify.</strong> The curse applies to all the creature's attack rolls until the end of its turn. Roll separately for each affected attack.</p>",
+      "value": "<p>When a creature you can see within 30 feet of yourself takes damage from an attack roll or a spell, you can take a Reaction to weaken its resilience. Until the end of the target's next turn, it loses Resistance to the damage types dealt by the triggering effect, including against that triggering effect.</p><p><strong>Amplify.</strong> The target instead loses Immunity to those damage types, but it has Resistance to them until the end of its next turn.</p>",
       "chat": ""
     },
     "source": {
@@ -32,8 +32,8 @@
     "properties": [],
     "requirements": "Blood Hunter",
     "activities": {
-      "bhcEyelessAct000": {
-        "_id": "bhcEyelessAct000",
+      "bhcExposureAct00": {
+        "_id": "bhcExposureAct00",
         "type": "utility",
         "activation": {
           "type": "reaction",
@@ -54,8 +54,8 @@
         },
         "duration": {
           "concentration": false,
-          "value": "",
-          "units": "",
+          "value": "1",
+          "units": "turn",
           "special": "",
           "override": false
         },
@@ -93,7 +93,7 @@
       }
     },
     "enchant": {},
-    "identifier": "blood-curse-of-the-eyeless"
+    "identifier": "blood-curse-of-exposure"
   },
   "effects": [],
   "flags": {
@@ -111,12 +111,12 @@
     "systemVersion": "5.3.3",
     "createdTime": 1751500000000,
     "modifiedTime": 1751500000000,
-    "lastModifiedBy": "bloodhunterBuilder",
+    "lastModifiedBy": "bhbuilder0000000",
     "exportSource": null
   },
   "sort": 0,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!bhcEyeless0000000"
+  "_key": "!items!bhcExposure00000"
 }

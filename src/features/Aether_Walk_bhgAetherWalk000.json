@@ -1,5 +1,5 @@
 {
-  "_id": "bhgAetherWalk0000",
+  "_id": "bhgAetherWalk000",
   "name": "Aether Walk",
   "type": "feat",
   "img": "icons/magic/movement/trail-streak-impact-blue.webp",
@@ -114,6 +114,6 @@
     "lastModifiedBy": "dnd5ebuilder0000",
     "exportSource": null
   },
-  "_key": "!items!bhgAetherWalk0000",
+  "_key": "!items!bhgAetherWalk000",
   "folder": "bhfFeatures00000"
 }

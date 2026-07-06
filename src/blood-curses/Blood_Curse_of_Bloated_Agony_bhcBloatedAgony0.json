@@ -1,12 +1,12 @@
 {
-  "_id": "bhcMuddledMind000",
-  "name": "Blood Curse of the Muddled Mind",
+  "_id": "bhcBloatedAgony0",
+  "name": "Blood Curse of Bloated Agony",
   "type": "feat",
   "folder": "bhfBloodCurses00",
   "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
   "system": {
     "description": {
-      "value": "<p>As a Bonus Action, you curse a creature you can see within 30 feet of yourself that is concentrating on a spell or sustaining an effect that requires Concentration. The creature has Disadvantage on the next Constitution saving throw it makes to maintain Concentration before the end of your next turn.</p><p><strong>Amplify.</strong> The cursed creature has Disadvantage on all Constitution saving throws made to maintain Concentration until the end of your next turn.</p>",
+      "value": "<p>As a Bonus Action, you curse a creature you can see within 30 feet of yourself, causing its body to swell until the end of your next turn. For the duration, the creature has Disadvantage on Strength and Dexterity checks, and it takes 1d8 Necrotic damage if it makes more than one attack on its turn.</p><p><strong>Amplify.</strong> The curse lasts for 1 minute. The cursed creature repeats a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.</p>",
       "chat": ""
     },
     "source": {
@@ -32,8 +32,8 @@
     "properties": [],
     "requirements": "Blood Hunter",
     "activities": {
-      "bhcMuddledAct000": {
-        "_id": "bhcMuddledAct000",
+      "bhcBloatedAct000": {
+        "_id": "bhcBloatedAct000",
         "type": "utility",
         "activation": {
           "type": "bonus",
@@ -93,7 +93,7 @@
       }
     },
     "enchant": {},
-    "identifier": "blood-curse-of-the-muddled-mind"
+    "identifier": "blood-curse-of-bloated-agony"
   },
   "effects": [],
   "flags": {
@@ -111,12 +111,12 @@
     "systemVersion": "5.3.3",
     "createdTime": 1751500000000,
     "modifiedTime": 1751500000000,
-    "lastModifiedBy": "bloodhunterBuilder",
+    "lastModifiedBy": "bhbuilder0000000",
     "exportSource": null
   },
   "sort": 0,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!bhcMuddledMind000"
+  "_key": "!items!bhcBloatedAgony0"
 }

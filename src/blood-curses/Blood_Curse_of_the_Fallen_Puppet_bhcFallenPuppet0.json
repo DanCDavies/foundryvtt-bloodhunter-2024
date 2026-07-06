@@ -1,12 +1,12 @@
 {
-  "_id": "bhcCorrosion00000",
-  "name": "Blood Curse of Corrosion",
+  "_id": "bhcFallenPuppet0",
+  "name": "Blood Curse of the Fallen Puppet",
   "type": "feat",
   "folder": "bhfBloodCurses00",
   "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
   "system": {
     "description": {
-      "value": "<p><em>Prerequisite: Level 15, Order of the Mutant</em></p><p>As a Bonus Action, you curse a creature you can see within 30 feet of yourself, giving it the Poisoned condition. The cursed creature repeats a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.</p><p><strong>Amplify.</strong> The cursed creature takes 4d6 Necrotic damage when you inflict the curse, and it takes this damage again each time it fails a Constitution saving throw to end the curse.</p>",
+      "value": "<p>When a creature you can see within 30 feet of yourself drops to 0 Hit Points, you can take a Reaction to instill it with a final act of aggression. The creature immediately makes one weapon attack against a creature of your choice within its reach.</p><p><strong>Amplify.</strong> Before the attack, you can move the cursed creature up to half its Speed, and you grant a bonus to its attack roll equal to your Intelligence modifier (minimum of +1).</p>",
       "chat": ""
     },
     "source": {
@@ -26,17 +26,17 @@
       "subtype": "bloodCurse"
     },
     "prerequisites": {
-      "level": 15,
+      "level": null,
       "repeatable": false
     },
     "properties": [],
-    "requirements": "Blood Hunter (Order of the Mutant)",
+    "requirements": "Blood Hunter",
     "activities": {
-      "bhcCorrosionAct0": {
-        "_id": "bhcCorrosionAct0",
-        "type": "save",
+      "bhcFallenAct0000": {
+        "_id": "bhcFallenAct0000",
+        "type": "utility",
         "activation": {
-          "type": "bonus",
+          "type": "reaction",
           "value": null,
           "condition": "",
           "override": false
@@ -89,24 +89,11 @@
           "spent": 0,
           "recovery": []
         },
-        "sort": 0,
-        "save": {
-          "ability": [
-            "con"
-          ],
-          "dc": {
-            "calculation": "int",
-            "formula": ""
-          }
-        },
-        "damage": {
-          "onSave": "half",
-          "parts": []
-        }
+        "sort": 0
       }
     },
     "enchant": {},
-    "identifier": "blood-curse-of-corrosion"
+    "identifier": "blood-curse-of-the-fallen-puppet"
   },
   "effects": [],
   "flags": {
@@ -124,12 +111,12 @@
     "systemVersion": "5.3.3",
     "createdTime": 1751500000000,
     "modifiedTime": 1751500000000,
-    "lastModifiedBy": "bloodhunterBuilder",
+    "lastModifiedBy": "bhbuilder0000000",
     "exportSource": null
   },
   "sort": 0,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!bhcCorrosion00000"
+  "_key": "!items!bhcFallenPuppet0"
 }

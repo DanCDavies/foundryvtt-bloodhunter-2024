@@ -1,11 +1,11 @@
 {
-  "_id": "bhgBrandSunder000",
-  "name": "Brand of Sundering",
+  "_id": "bhgCurseSpecial0",
+  "name": "Curse Specialist",
   "type": "feat",
   "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
   "system": {
     "description": {
-      "value": "<p>Your Brand of Castigation exposes a fragment of your foe's essence, leaving it vulnerable to your rites. Whenever you hit a creature branded by you with a weapon for which you have an active Crimson Rite, you roll an additional Hemocraft die when determining the rite's extra damage.</p>\n<p>In addition, a creature branded by you that has the Incorporeal Movement trait (or a similar trait) can't move through creatures or objects while branded.</p>",
+      "value": "<p>You gain an additional use of your Blood Maledict feature. In addition, your Blood Curses can target any creature, whether or not it has blood.</p>",
       "chat": ""
     },
     "source": {
@@ -25,13 +25,13 @@
       "subtype": ""
     },
     "prerequisites": {
-      "level": 11
+      "level": 3
     },
     "properties": [],
     "requirements": "Blood Hunter",
     "activities": {},
     "enchant": {},
-    "identifier": "brand-of-sundering"
+    "identifier": "curse-specialist"
   },
   "effects": [],
   "flags": {},
@@ -49,6 +49,6 @@
     "lastModifiedBy": "dnd5ebuilder0000",
     "exportSource": null
   },
-  "_key": "!items!bhgBrandSunder000",
+  "_key": "!items!bhgCurseSpecial0",
   "folder": "bhfFeatures00000"
 }

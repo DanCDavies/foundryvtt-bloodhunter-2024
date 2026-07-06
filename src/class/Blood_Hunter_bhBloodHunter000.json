@@ -41,13 +41,13 @@
     },
     "advancement": [
       {
-        "_id": "bhadv000HitPoints",
+        "_id": "bhadv000HitPoint",
         "type": "HitPoints",
         "configuration": {},
         "value": {}
       },
       {
-        "_id": "bhadv001SaveProfs",
+        "_id": "bhadv001SaveProf",
         "type": "Trait",
         "configuration": {
           "mode": "default",
@@ -883,22 +883,22 @@
               "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcBinding000000"
             },
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcBloatedAgony00"
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcBloatedAgony0"
             },
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcExposure000000"
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcExposure00000"
             },
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcEyeless0000000"
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcEyeless000000"
             },
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcFallenPuppet00"
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcFallenPuppet0"
             },
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcMarked00000000"
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcMarked0000000"
             },
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcMuddledMind000"
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcMuddledMind00"
             }
           ],
           "spell": null,

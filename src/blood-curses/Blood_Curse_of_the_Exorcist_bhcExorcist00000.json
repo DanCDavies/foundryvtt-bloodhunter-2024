@@ -1,12 +1,12 @@
 {
-  "_id": "bhcBloatedAgony00",
-  "name": "Blood Curse of Bloated Agony",
+  "_id": "bhcExorcist00000",
+  "name": "Blood Curse of the Exorcist",
   "type": "feat",
   "folder": "bhfBloodCurses00",
   "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
   "system": {
     "description": {
-      "value": "<p>As a Bonus Action, you curse a creature you can see within 30 feet of yourself, causing its body to swell until the end of your next turn. For the duration, the creature has Disadvantage on Strength and Dexterity checks, and it takes 1d8 Necrotic damage if it makes more than one attack on its turn.</p><p><strong>Amplify.</strong> The curse lasts for 1 minute. The cursed creature repeats a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.</p>",
+      "value": "<p><em>Prerequisite: Level 15, Order of the Ghostslayer</em></p><p>As a Bonus Action, choose one creature you can see within 30 feet of yourself that has the Charmed or Frightened condition or that is affected by a possession effect. That creature is no longer Charmed, Frightened, or possessed.</p><p><strong>Amplify.</strong> A creature that charmed, frightened, or possessed the target takes 3d6 Psychic damage and must succeed on a Wisdom saving throw or have the Stunned condition until the end of your next turn.</p>",
       "chat": ""
     },
     "source": {
@@ -26,14 +26,14 @@
       "subtype": "bloodCurse"
     },
     "prerequisites": {
-      "level": null,
+      "level": 15,
       "repeatable": false
     },
     "properties": [],
-    "requirements": "Blood Hunter",
+    "requirements": "Blood Hunter (Order of the Ghostslayer)",
     "activities": {
-      "bhcBloatedAct000": {
-        "_id": "bhcBloatedAct000",
+      "bhcExorcistAct00": {
+        "_id": "bhcExorcistAct00",
         "type": "utility",
         "activation": {
           "type": "bonus",
@@ -54,8 +54,8 @@
         },
         "duration": {
           "concentration": false,
-          "value": "1",
-          "units": "turn",
+          "value": "",
+          "units": "",
           "special": "",
           "override": false
         },
@@ -93,7 +93,7 @@
       }
     },
     "enchant": {},
-    "identifier": "blood-curse-of-bloated-agony"
+    "identifier": "blood-curse-of-the-exorcist"
   },
   "effects": [],
   "flags": {
@@ -111,12 +111,12 @@
     "systemVersion": "5.3.3",
     "createdTime": 1751500000000,
     "modifiedTime": 1751500000000,
-    "lastModifiedBy": "bloodhunterBuilder",
+    "lastModifiedBy": "bhbuilder0000000",
     "exportSource": null
   },
   "sort": 0,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!bhcBloatedAgony00"
+  "_key": "!items!bhcExorcist00000"
 }

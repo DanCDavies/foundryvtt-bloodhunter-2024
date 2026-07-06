@@ -1,5 +1,5 @@
 {
-  "_id": "bhsGhostslayer000",
+  "_id": "bhsGhostslayer00",
   "name": "Order of the Ghostslayer",
   "type": "subclass",
   "img": "icons/magic/light/explosion-star-large-orange-purple.webp",
@@ -24,11 +24,11 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgRiteDawn000000",
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgRiteDawn00000",
               "optional": false
             },
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgCurseSpecial00",
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgCurseSpecial0",
               "optional": false
             }
           ],
@@ -45,7 +45,7 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgAetherWalk0000",
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgAetherWalk000",
               "optional": false
             }
           ],
@@ -62,7 +62,7 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgBrandSunder000",
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgBrandSunder00",
               "optional": false
             }
           ],
@@ -79,7 +79,7 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcExorcist000000",
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhcExorcist00000",
               "optional": false
             }
           ],
@@ -96,7 +96,7 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgRiteRevival000",
+              "uuid": "Compendium.blood-hunter-2024.blood-hunter-2024.Item.bhgRiteRevival00",
               "optional": false
             }
           ],
@@ -131,5 +131,5 @@
     "lastModifiedBy": "dnd5ebuilder0000",
     "exportSource": null
   },
-  "_key": "!items!bhsGhostslayer000"
+  "_key": "!items!bhsGhostslayer00"
 }

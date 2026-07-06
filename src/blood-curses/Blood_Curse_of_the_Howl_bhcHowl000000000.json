@@ -1,5 +1,5 @@
 {
-  "_id": "bhcHowl0000000000",
+  "_id": "bhcHowl000000000",
   "name": "Blood Curse of the Howl",
   "type": "feat",
   "folder": "bhfBloodCurses00",
@@ -124,12 +124,12 @@
     "systemVersion": "5.3.3",
     "createdTime": 1751500000000,
     "modifiedTime": 1751500000000,
-    "lastModifiedBy": "bloodhunterBuilder",
+    "lastModifiedBy": "bhbuilder0000000",
     "exportSource": null
   },
   "sort": 0,
   "ownership": {
     "default": 0
   },
-  "_key": "!items!bhcHowl0000000000"
+  "_key": "!items!bhcHowl000000000"
 }
